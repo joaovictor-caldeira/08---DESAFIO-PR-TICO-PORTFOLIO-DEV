@@ -35,3 +35,33 @@ body{
   color: var(--gray-600);
   font: var(--font-family-title);
 }
+
+h1{
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+h2{
+  font: var(--subtitle-text);
+  color: var(--gray-500);
+}
+
+p{
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.intro{
+  background-image:url('../assets/Background_Intro.png');
+  width: 1366px;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+}
+
+.githubintro{
+  fill: var(--purple);
+}

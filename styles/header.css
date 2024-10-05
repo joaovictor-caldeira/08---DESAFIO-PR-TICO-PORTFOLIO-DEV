@@ -1,0 +1,44 @@
+.intro{
+  background-image:url('../assets/Background_Intro.png');
+  width: 1366px;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.icon-intro{
+  background-color: var(--gray-300);
+  border-radius: 32px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 114px;
+  color: var(--gray-500);
+}
+
+.githubintro path {
+  fill: var(--gray-500);
+}
+
+.html-intro path{
+  fill: var(--red);
+}
+
+.css-intro path{
+  fill: var(--blue);
+}
+
+.java-intro path{
+  fill: var(--yellow);
+}
+
+.react-intro path{
+  fill: var(--blue);
+}
+
+.node-intro path{
+  fill: var(--green);
+}

@@ -50,18 +50,3 @@ p{
   font: var(--text-sm);
   color: var(--gray-400);
 }
-
-.intro{
-  background-image:url('../assets/Background_Intro.png');
-  width: 1366px;
-  height: 750px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-}
-
-.githubintro{
-  fill: var(--purple);
-}

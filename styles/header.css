@@ -5,7 +5,32 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
+  align-items: center;
+  text-align: center;
+
+  img{
+    margin-bottom: 56px;
+  }
+
+  h2{
+    margin-bottom: 8px;
+  }
+
+  h1{
+    margin-bottom: 20px;
+  }
+
+  .header-p{
+    max-width: 680px;
+  }
+
+  nav{
+    margin-top: 80px;
+    margin-bottom: 94px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+  }
 }
 
 .icon-intro{
@@ -41,4 +66,8 @@
 
 .node-intro path{
   fill: var(--green);
+}
+
+.arrow-intro path{
+  fill: var(--gray-400);
 }
